@@ -1,0 +1,38 @@
+{
+    "collection": "recipes",
+    "database": "recipe",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "owner_id": "%%user.id"
+            },
+            "fields": {
+                "_id": {
+                    "write": true,
+                    "read": true
+                },
+                "owner_id": {
+                    "write": true,
+                    "read": true
+                },
+                "title": {
+                    "write": true,
+                    "read": true
+                },
+                "ingredients": {
+                    "write": true,
+                    "read": true
+                },
+                "instructions": {
+                    "write": true,
+                    "read": true
+                }
+            },
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

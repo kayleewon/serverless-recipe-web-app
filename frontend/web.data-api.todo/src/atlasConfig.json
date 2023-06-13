@@ -1,0 +1,8 @@
+{
+    "appId": "recipeapp-dvada",
+    "appUrl": "https://realm.mongodb.com/groups/6321dab657ec8d698d63874f/apps/6480f52123c674915d8960a3",
+    "baseUrl": "https://realm.mongodb.com",
+    "clientApiBaseUrl": "https://us-east-1.aws.realm.mongodb.com",
+    "dataApiBaseUrl": "https://us-east-1.aws.data.mongodb-api.com",
+    "dataSourceName": "mongodb-atlas"
+}
